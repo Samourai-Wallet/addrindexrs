@@ -1,5 +1,7 @@
 # Bitcoin Address Indexer in Rust
 
+## This repository is now maintained at https://code.samourai.io/dojo/addrindexrs ##
+
 An efficient addresses indexer based on [Electrs](https://github.com/romanz/electrs) by [Roman Zeyde](https://github.com/romanz).
 
 The server indexes the entire Bitcoin blockchain, and the resulting index enables fast queries allowing to keep real-time track of the transaction history of Bitcoin addresses. Since it runs on the user's own machine, there is no need for the wallet to communicate with external servers, thus preserving the privacy of the user's addresses and balances.
